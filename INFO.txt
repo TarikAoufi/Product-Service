@@ -1,0 +1,31 @@
+
++ URL for find all product:
+	http://localhost:8080/products
+	
++ URL for find by keyword in product designation:
+--> List:	http://localhost:8080/products/search/byDesignation?kw=Phone
+--> Page:	http://localhost:8080/products/search/byDesignationPage?kw=Phone&page=0&size=5
+	
++ URL for find by page and keyword in product designation:	
+	# BY CRITERIA
+	- page 1 with 5 element:
+	http://localhost:8080/products/search/byDesignationPage?kw=o&page=0&size=5
+	- page 2 with 10 element:
+	http://localhost:8080/products/search/byDesignationPage?kw=o&page=1&size=10
+	
+	# without criteria
+	http://localhost:8080/products?page=0&size=5   // page 1
+	http://localhost:8080/products?page=1&size=10  // page 2
+
+# BY PROJECTION
++ URL for find all product using projection "P1" (designation and price):	
+	http://localhost:8080/products?projection=P1
+	
+==================================
+URL with API REST Controller:
+
++ URL for find all product:
+	http://localhost:8080/listProduct
+	
++ URL for find product by id=2:
+	http://localhost:8080/listProduct/2
