@@ -12,3 +12,4 @@ L'application frontend: Angular-ProductWeb, est basée sur Angular 9/10 et commu
       
       ∙ La pagination 
   
+ 
